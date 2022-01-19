@@ -8,7 +8,7 @@ namespace SnekOOP
     {
         static void Main(string[] args)
         {
-            
+            Console.ForegroundColor = ConsoleColor.Cyan;
             int score = 0;
             Walls walls = new Walls(80, 25);
             walls.Draw();
