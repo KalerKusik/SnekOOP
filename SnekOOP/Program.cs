@@ -13,7 +13,7 @@ namespace SnekOOP
             Walls walls = new Walls(80, 25);
             walls.Draw();
 
-            Point snakeTail = new Point(15, 15, 's');
+            Point snakeTail = new Point(15, 15, 'E');
             Snek snake = new Snek(snakeTail, 4, Direction.RIGHT);
             snake.Draw();
 
