@@ -49,7 +49,7 @@ namespace SnekOOP
         public void Draw()
         {
             Console.SetCursorPosition(x, y);
-            Console.Write(symb);
+            Console.Write(symb);   
         }
         public void Clear()
         {

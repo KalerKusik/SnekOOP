@@ -22,10 +22,16 @@ namespace SnekOOP
 
             VerticalLine right = new VerticalLine(0, 25, 80, '#');
 
+            VerticalLine danger1 = new VerticalLine(7, 13, 50, 'l');
+
+            HorizonalLine danger2 = new HorizonalLine(30, 40, 20, '-');
+
             wallList.Add(top);
             wallList.Add(left);
             wallList.Add(bottom);
             wallList.Add(right);
+            wallList.Add(danger1);
+            wallList.Add(danger2);
         }
         public void Draw()
         {
